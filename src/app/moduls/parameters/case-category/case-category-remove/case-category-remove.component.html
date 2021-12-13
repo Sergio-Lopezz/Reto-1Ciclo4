@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="mb-5">
+        <br>
+    </div>
+    <div class="mb-5">
+        <br>
+    </div>
+    <div class="card">
+        <div class="card-header"><strong>Especialidad</strong></div>
+        <div class="card-body">
+          <p class="card-tex">Eliminar especialidad</p>
+          <div class="alert alert-info" role="alert">
+            Ha seleccionado la opción de eliminar
+          </div>
+          <div class="card">
+            <div class="card-header"><strong>Especialidad</strong></div>
+            <div class="card-body">
+              <ul>
+                  <li><strong>Id: </strong>{{1}}</li>
+                  <li><strong>Nombre especialidad: </strong>Familiar</li>
+              </ul>
+              <div class="row">
+                  <div class="form-group">
+                    <div class="text-center">
+                      <div class="form-group mb-2">
+                        <button (click)="RemoveRecord()" class="btn btn-primary">Aceptar</button>
+                      </div>
+                      <div class="form-group mb-2">
+                        <a routerLink="/parameters/case-category-list" class="btn btn-danger ">Cancelar</a>
+                      </div>
+                    </div> 
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
